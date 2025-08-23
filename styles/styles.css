@@ -129,7 +129,7 @@ p, .examples__detail {
 .studio {
     padding-left: 3px;
     margin-bottom: 30px;
-    max-width: 1048px;
+    width: 1048px;
     height: 366px;
     color: var(--Text, #121212);
     line-height: 62px;
@@ -346,3 +346,4 @@ footer {
 .finish__text:hover {
     opacity: 1;
 }
+
