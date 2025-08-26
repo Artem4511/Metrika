@@ -1,0 +1,52 @@
+.interior__title {
+  max-width: 956px;
+}
+
+.interior__img {
+  position: relative;
+  height: 500px;
+
+  background-image: url("/img/interior/interior.png");
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.interior__img__text {
+  max-width: 430px;
+  color: #fff;
+
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+}
+
+@media (max-width: 1199px) {
+  .interior__title {
+    max-width: 802px;
+  }
+
+  .interior__img {
+    height: 400px;
+  }
+
+  .interior__img__text {
+    bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .interior__title {
+    width: 100%;
+  }
+
+  .interior__img {
+    height: 304px;
+  }
+
+  .interior__img__text {
+    width: 100%;
+    left: 15px;
+    bottom: 15px;
+    padding-right: 23px;
+  }
+}
