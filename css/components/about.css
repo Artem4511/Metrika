@@ -4,6 +4,7 @@
 }
 
 .about__text {
+  display: block;
   padding-left: 3px;
   margin-bottom: 30px;
   max-width: 1048px;

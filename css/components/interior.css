@@ -1,12 +1,13 @@
 .interior__title {
   max-width: 956px;
+  margin-bottom: 30px;
 }
 
 .interior__img {
   position: relative;
   height: 500px;
 
-  background-image: url("../../img/interior/interior.png");
+  background-image: url("../../img/interior/interior1.png");
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -27,6 +28,8 @@
 
   .interior__img {
     height: 400px;
+
+    background-image: url('../../img/interior/interior__tablet.png');
   }
 
   .interior__img__text {
@@ -37,10 +40,13 @@
 @media (max-width: 767px) {
   .interior__title {
     width: 100%;
+    margin-bottom: 25px;
   }
 
   .interior__img {
     height: 304px;
+
+    background-image: url('../../img/interior/interior__phone.png');
   }
 
   .interior__img__text {
@@ -50,4 +56,3 @@
     padding-right: 23px;
   }
 }
-

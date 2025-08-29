@@ -1,16 +1,32 @@
-h1,
-.tel,
-.email {
-  margin-bottom: 30px;
+html {
+  scroll-behavior: smooth;
+}
 
+body {
+  font-family: "Manrope", sans-serif;
+  width: 100%;
+}
+
+section, 
+.container {
+  width: 1150px;
+  margin: 0 auto;
+  margin-bottom: 150px;
+}
+
+h1 {
   font-size: 60px;
   line-height: 60px;
   letter-spacing: -1.8px;
 }
 
-h2 {
-  font-size: 45px;
-  letter-spacing: -1.35px;
+h2,
+.nav__item,
+.nav__down__wrapper__text {
+  font-size: 18px;
+  line-height: normal;
+  letter-spacing: -0.54px;
+  text-transform: uppercase;
 }
 
 h3 {
@@ -19,12 +35,15 @@ h3 {
   letter-spacing: -0.9px;
 }
 
-span,
-.nav__item,
-.nav__down__item__text {
-  font-size: 18px;
+h4 {
+  font-size: 22px;
   line-height: normal;
-  letter-spacing: -0.54px;
+  letter-spacing: -0.66px;
+}
+
+span {
+  font-size: 45px;
+  letter-spacing: -1.35px;
 }
 
 p,
@@ -35,16 +54,18 @@ p,
 }
 
 @media (max-width: 1199px) {
-  h1,
-  .tel,
-  .email {
-    font-size: 50px;
-    letter-spacing: -1.5px;
+  section {
+    width: 100%;
+    margin-bottom: 120px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
-  h2 {
-    font-size: 35px;
-    letter-spacing: -1.05px;
+  h1,
+  .contacts__tel,
+  .contacts__email {
+    font-size: 50px;
+    letter-spacing: -1.5px;
   }
 
   h3 {
@@ -52,21 +73,38 @@ p,
     letter-spacing: -0.75px;
   }
 
-  
+  h4 {
+    font-size: 20px;
+    letter-spacing: -0.6px;
+  }
+
+  span {
+    font-size: 35px;
+    letter-spacing: -1.05px;
+  }
 }
 
 @media (max-width: 767px) {
+  section {
+    width: 100%;
+    margin-bottom: 80px;
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+
   h1,
-  .tel,
-  .email {
+  .contacts__tel,
+  .contacts__email {
     font-size: 30px;
     line-height: 31.621px;
     letter-spacing: -0.9px;
   }
 
-  h2 {
-    font-size: 22px;
-    letter-spacing: -0.66px;
+  h2,
+  .nav__item,
+  .nav__down__wrapper__text {
+    font-size: 14px;
+    letter-spacing: -0.42px;
   }
 
   h3 {
@@ -74,11 +112,14 @@ p,
     letter-spacing: -0.54px;
   }
 
-  span,
-  .nav__item,
-  .nav__down__item__text {
+  h4 {
     font-size: 14px;
     letter-spacing: -0.42px;
+  }
+
+  span {
+    font-size: 22px;
+    letter-spacing: -0.66px;
   }
 
   p,
