@@ -1,0 +1,136 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  width: 100%;
+}
+
+section, 
+.container {
+  width: 1150px;
+  margin: 0 auto;
+  margin-bottom: 150px;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -1.8px;
+}
+
+h2,
+.nav__item,
+.nav-down__link {
+  font-size: 18px;
+  line-height: normal;
+  letter-spacing: -0.54px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 30px;
+  line-height: normal;
+  letter-spacing: -0.9px;
+}
+
+h4,
+.services__list-price {
+  font-size: 22px;
+  line-height: normal;
+  letter-spacing: -0.66px;
+}
+
+span,
+.about__text {
+  font-size: 45px;
+  letter-spacing: -1.35px;
+}
+
+p,
+.projects__examples-detail {
+  font-size: 20px;
+  line-height: normal;
+  letter-spacing: -0.6px;
+}
+
+@media (max-width: 1199px) {
+  section {
+    width: 100%;
+    margin-bottom: 120px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  h1,
+  .contacts__tel,
+  .contacts__email {
+    font-size: 50px;
+    letter-spacing: -1.5px;
+  }
+
+  h3 {
+    font-size: 25px;
+    letter-spacing: -0.75px;
+  }
+
+  h4,
+  .services__list-price {
+    font-size: 20px;
+    letter-spacing: -0.6px;
+  }
+
+  span,
+  .about__text {
+    font-size: 35px;
+    letter-spacing: -1.05px;
+  }
+}
+
+@media (max-width: 767px) {
+  section {
+    width: 100%;
+    margin-bottom: 80px;
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+
+  h1,
+  .contacts__tel,
+  .contacts__email {
+    font-size: 30px;
+    line-height: 31.621px;
+    letter-spacing: -0.9px;
+  }
+
+  h2,
+  .nav__item,
+  .nav-down__link {
+    font-size: 14px;
+    letter-spacing: -0.42px;
+  }
+
+  h3 {
+    font-size: 18px;
+    letter-spacing: -0.54px;
+  }
+
+  h4,
+  .services__list-price {
+    font-size: 14px;
+    letter-spacing: -0.42px;
+  }
+
+  span,
+  .about__text {
+    font-size: 22px;
+    letter-spacing: -0.66px;
+  }
+
+  p,
+  .projects__examples-detail {
+    font-size: 16px;
+    letter-spacing: -0.48px;
+  }
+}

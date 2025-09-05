@@ -1,0 +1,36 @@
+.sad__title {
+    padding: 10px;
+    background-color: blue;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.sad__back {
+    display: block;
+    width: 500px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: red;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.sad__back:hover {
+    background-color: white;
+}
+
+.sad__buttom {
+    text-align: center;
+    line-height: 40px;
+    color: black;
+}
+
+@media (max-width: 1199px) {
+    .sad__back {
+        width: 100%;
+    }
+}

@@ -1,0 +1,65 @@
+.header {
+  margin-top: 33px;
+  margin-bottom: 70px;
+}
+
+header section {
+  margin-bottom: 0;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 126.889px;
+  height: 21.42px;
+}
+
+.nav {
+  display: flex;
+  column-gap: 60px;
+}
+
+.nav__item {
+  position: relative;
+  color: #121212;
+  opacity: 1;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.nav__item::after {
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  right: 0;
+  left: auto;
+  width: 0;
+  height: 1px;
+  background-color: black;
+  transition: width 0.3s ease-in, background-color 0.3s ease-in;
+}
+
+.nav__item:hover {
+  color: rgba(18, 18, 18, 0.5);
+}
+
+.nav__item:hover::after {
+  left: 0;
+  width: 100%;
+  background-color: rgba(18, 18, 18, 0.5);
+}
+
+.burger {
+  display: none;
+}
+
+.burger-btn {
+  display: none;
+}
+
+.js-burger-btn {
+  display: none;
+}
